@@ -309,10 +309,7 @@ export default function Index() {
                 answer: "Нет, данный курс рассчитан для офлайн обучения. 2 дня полного погружения с обратной связью, помощью и кураторством"
               },
 
-              {
-                question: "Есть ли возможность возврата средств?",
-                answer: "Да, мы предоставляем 14-дневную гарантию возврата средств. Если курс не оправдает ваших ожиданий в первые две недели, мы вернем полную стоимость."
-              }
+
             ].map((item, index) => (
               <AccordionItem key={index} value={`item-${index}`} className="border border-border/50 rounded-xl px-6 bg-card/30 backdrop-blur-sm">
                 <AccordionTrigger className="text-left text-lg font-semibold text-primary hover:text-primary/80 py-6" style={{fontFamily: 'Playfair Display'}}>
