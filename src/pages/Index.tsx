@@ -223,6 +223,83 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Learning Options */}
+      <section className="py-20 px-4 bg-gradient-to-br from-accent/5 to-primary/5">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-6" style={{fontFamily: 'Playfair Display'}}>
+              Три варианта обучения
+            </h2>
+            <p className="text-xl text-foreground/80 max-w-3xl mx-auto" style={{fontFamily: 'Source Sans Pro'}}>
+              Выбери то, что подходит именно тебе
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-8">
+            {[
+              {
+                title: "ОФЛАЙН курс в Симферополе",
+                subtitle: "2 дня полного погружения в ИИ",
+                icon: "MapPin",
+                color: "from-blue-500/20 to-cyan-500/20",
+                location: "Симферополь"
+              },
+              {
+                title: "ОФЛАЙН курс в Севастополе", 
+                subtitle: "2 дня полного погружения в ИИ",
+                icon: "MapPin",
+                color: "from-green-500/20 to-emerald-500/20",
+                location: "Севастополь"
+              },
+              {
+                title: "Удаленное обучение",
+                subtitle: "с любой точки мира в своем темпе",
+                icon: "Globe",
+                color: "from-purple-500/20 to-pink-500/20",
+                location: "Онлайн"
+              }
+            ].map((option, index) => (
+              <Card key={index} className={`group hover:shadow-2xl transition-all duration-500 border-0 bg-gradient-to-br ${option.color} backdrop-blur-sm hover:scale-105`}>
+                <CardContent className="p-8 text-center">
+                  <div className="space-y-6">
+                    <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-shadow">
+                      <Icon name={option.icon as any} size={36} className="text-primary" />
+                    </div>
+                    
+                    <div className="space-y-3">
+                      <h3 className="text-2xl font-bold text-primary" style={{fontFamily: 'Playfair Display'}}>
+                        {option.title}
+                      </h3>
+                      <p className="text-lg text-foreground/80" style={{fontFamily: 'Source Sans Pro'}}>
+                        {option.subtitle}
+                      </p>
+                    </div>
+
+                    <div className="pt-4">
+                      <div className="inline-flex items-center space-x-2 px-4 py-2 bg-white/50 rounded-full">
+                        <Icon name="Target" size={16} className="text-primary" />
+                        <span className="text-sm font-medium text-foreground" style={{fontFamily: 'Source Sans Pro'}}>
+                          {option.location}
+                        </span>
+                      </div>
+                    </div>
+
+                    <Button 
+                      size="lg" 
+                      className="w-full bg-primary hover:bg-primary/90 text-white font-semibold py-3"
+                      onClick={() => window.open('https://wa.me/79780332805?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D0%BA%D1%83%D1%80%D1%81%20%D0%BF%D0%BE%20%D0%98%D0%98', '_blank')}
+                    >
+                      <Icon name="MessageCircle" size={20} className="mr-2" />
+                      Узнать подробнее
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Why AI for Interior Designers */}
       <section className="py-20 px-4 bg-gradient-to-l from-primary/5 to-accent/10">
         <div className="max-w-7xl mx-auto">
