@@ -330,7 +330,7 @@ export default function Index() {
           <div className="grid lg:grid-cols-4 gap-8">
             <div className="lg:col-span-2 space-y-6">
               <div className="text-3xl font-bold text-primary" style={{fontFamily: 'Playfair Display'}}>
-                AI Design Academy
+                Академия Дизайна Марианны Турбиной
               </div>
               <p className="text-foreground/70 max-w-md" style={{fontFamily: 'Source Sans Pro'}}>
                 Превратите свою страсть к дизайну интерьера в успешную карьеру с помощью искусственного интеллекта.
