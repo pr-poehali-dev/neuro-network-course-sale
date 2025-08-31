@@ -61,12 +61,7 @@ export default function Index() {
               </div>
 
               <div className="flex items-center space-x-8 pt-6">
-                <div className="flex items-center space-x-2">
-                  <Icon name="Users" size={20} className="text-gold" />
-                  <span className="text-sm font-medium text-foreground/70" style={{fontFamily: 'Source Sans Pro'}}>
-                    500+ выпускников
-                  </span>
-                </div>
+
                 <div className="flex items-center space-x-2">
                   <Icon name="Star" size={20} className="text-gold fill-current" />
                   <span className="text-sm font-medium text-foreground/70" style={{fontFamily: 'Source Sans Pro'}}>
