@@ -223,6 +223,83 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Why AI for Interior Designers */}
+      <section className="py-20 px-4 bg-gradient-to-l from-primary/5 to-accent/10">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-6" style={{fontFamily: 'Playfair Display'}}>
+              Пять причин освоить ИИ дизайнеру
+            </h2>
+            <p className="text-xl text-foreground/80 max-w-4xl mx-auto" style={{fontFamily: 'Source Sans Pro'}}>
+              Без «магии», только практическая польза для каждого дизайнера интерьеров
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-8">
+            {[
+              {
+                number: "01",
+                title: "Скорость вместо рутины",
+                description: "ИИ за минуты собирает референсы, делает мудборды, предлагает варианты планировок и материалов, помогает с предварительными визуализациями. Меньше ожидания - больше времени на концепт и авторский контроль.",
+                icon: "Zap",
+                gradient: "from-yellow-500/20 to-orange-500/20"
+              },
+              {
+                number: "02",
+                title: "Сильные презентации и меньше правок",
+                description: "Быстро показываете 3–5 альтернатив одной зоны, варианты света/цвета/фактур, делаете «до/после». Клиент лучше понимает идею на раннем этапе - правок и согласований становится меньше.",
+                icon: "Presentation",
+                gradient: "from-blue-500/20 to-purple-500/20"
+              },
+              {
+                number: "03",
+                title: "Больше креатива при контролируемых рисках",
+                description: "ИИ расширяет поле поиска: редкие стилевые комбинации, экспресс-пробы отделок, смелые композиции. Вы курируете и отбираете лучшее, не закапываясь в бесконечных пробах вручную.",
+                icon: "Lightbulb",
+                gradient: "from-green-500/20 to-emerald-500/20"
+              },
+              {
+                number: "04",
+                title: "Деньги и масштабируемость",
+                description: "Автоматизация процесса визуализаций здорово экономит время. Освободившееся время можно монетизировать: брать больше проектов или поднимать чек за скорость и сервис.",
+                icon: "TrendingUp",
+                gradient: "from-primary/20 to-accent/20"
+              },
+              {
+                number: "05",
+                title: "Маркетинг «на автопилоте»",
+                description: "Кейсы, рилсы, превью интерьеров, мокапы мебели/текстиля и тексты для сайта готовятся быстрее и регулярнее. Это оживляет портфолио, повышает видимость в соцсетях и приводит новых клиентов.",
+                icon: "Megaphone",
+                gradient: "from-pink-500/20 to-rose-500/20"
+              }
+            ].map((item, index) => (
+              <Card key={index} className={`group hover:shadow-2xl transition-all duration-500 border-0 bg-gradient-to-br ${item.gradient} backdrop-blur-sm ${index === 4 ? 'lg:col-span-2 lg:max-w-3xl lg:mx-auto' : ''}`}>
+                <CardContent className="p-8">
+                  <div className="flex items-start space-x-6">
+                    <div className="flex-shrink-0">
+                      <div className="w-16 h-16 bg-white/90 rounded-2xl flex items-center justify-center mb-4 shadow-lg">
+                        <Icon name={item.icon as any} size={28} className="text-primary" />
+                      </div>
+                      <div className="text-3xl font-bold text-primary/70" style={{fontFamily: 'Playfair Display'}}>
+                        {item.number}
+                      </div>
+                    </div>
+                    <div className="flex-1 space-y-4">
+                      <h3 className="text-2xl font-bold text-primary" style={{fontFamily: 'Playfair Display'}}>
+                        {item.title}
+                      </h3>
+                      <p className="text-foreground/80 leading-relaxed" style={{fontFamily: 'Source Sans Pro'}}>
+                        {item.description}
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Pricing */}
       <section id="pricing" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
