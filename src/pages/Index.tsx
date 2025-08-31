@@ -227,13 +227,7 @@ export default function Index() {
                 features: ["2 дня офлайн обучения и полного погружения в мир ИИ", "презентации и файлы с пошаговыми инструкциями и ссылками", "доступ к закрытому ТГ каналу для студентов курса по ИИ"],
                 recommended: true
               },
-              {
-                name: "Эксперт",
-                price: "129,900", 
-                period: "руб.",
-                features: ["Все из Профессионального", "1:1 консультации", "Помощь в трудоустройстве", "Безлимитный доступ", "Приоритетная поддержка"],
-                recommended: false
-              }
+
             ].map((plan, index) => (
               <Card key={index} className={`relative group hover:shadow-2xl transition-all duration-500 border-0 ${
                 plan.recommended 
