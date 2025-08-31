@@ -232,7 +232,9 @@ export default function Index() {
               <Card key={index} className={`relative group hover:shadow-2xl transition-all duration-500 border-0 ${
                 plan.recommended 
                   ? 'bg-gradient-to-br from-primary/5 via-card/80 to-secondary/10 scale-105' 
-                  : 'bg-card/50'
+                  : plan.name === 'ДЛЯ САМЫХ БЫСТРЫХ'
+                    ? 'bg-gradient-to-br from-gold/20 via-card/90 to-primary/10 transform -translate-y-4 ring-2 ring-gold/30 shadow-2xl scale-105'
+                    : 'bg-card/50'
               } backdrop-blur-sm`}>
 
                 <CardContent className="p-8">
