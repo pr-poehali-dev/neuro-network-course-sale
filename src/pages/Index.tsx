@@ -82,6 +82,18 @@ export default function Index() {
             </div>
             
             <div className="relative">
+              <div className="grid grid-cols-2 gap-4 mb-8">
+                <img 
+                  src="/img/2eabdee2-3daf-43a7-a5f5-26d2c8bd3867.jpg" 
+                  alt="Современная гостиная" 
+                  className="w-full h-48 object-cover rounded-2xl shadow-lg"
+                />
+                <img 
+                  src="/img/60b8c1fd-43c1-4c68-b74d-af099089b846.jpg" 
+                  alt="Люксовая кухня" 
+                  className="w-full h-48 object-cover rounded-2xl shadow-lg"
+                />
+              </div>
               <div className="absolute -inset-4 bg-gradient-to-r from-gold to-navy/30 rounded-3xl blur-3xl opacity-30"></div>
               <Card className="relative border-0 shadow-2xl bg-card/50 backdrop-blur-sm">
                 <CardContent className="p-8">
@@ -140,9 +152,17 @@ export default function Index() {
             <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-6" style={{fontFamily: 'Playfair Display'}}>
               Программа курса
             </h2>
-            <p className="text-xl text-foreground/80 max-w-3xl mx-auto" style={{fontFamily: 'Source Sans Pro'}}>
+            <p className="text-xl text-foreground/80 max-w-3xl mx-auto mb-8" style={{fontFamily: 'Source Sans Pro'}}>
               Экспертная программа обучения, разработанная ведущими специалистами в области ИИ и дизайна интерьера
             </p>
+            
+            <div className="flex justify-center mb-8">
+              <img 
+                src="/img/8d2d27d5-082d-437a-8e32-3ea3f981f1f2.jpg" 
+                alt="Элегантная спальня" 
+                className="w-full max-w-2xl h-80 object-cover rounded-3xl shadow-2xl"
+              />
+            </div>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8">
