@@ -84,12 +84,12 @@ export default function Index() {
             <div className="relative">
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <img 
-                  src="/img/2eabdee2-3daf-43a7-a5f5-26d2c8bd3867.jpg" 
+                  src="/img/114d7f71-a0a3-4c12-9c16-609798008590.jpg" 
                   alt="Современная гостиная" 
                   className="w-full h-48 object-cover rounded-2xl shadow-lg"
                 />
                 <img 
-                  src="/img/60b8c1fd-43c1-4c68-b74d-af099089b846.jpg" 
+                  src="/img/ae7dd454-3847-40ab-b2dd-e82502976316.jpg" 
                   alt="Люксовая кухня" 
                   className="w-full h-48 object-cover rounded-2xl shadow-lg"
                 />
@@ -158,7 +158,7 @@ export default function Index() {
             
             <div className="flex justify-center mb-8">
               <img 
-                src="/img/8d2d27d5-082d-437a-8e32-3ea3f981f1f2.jpg" 
+                src="/img/d04cef56-e66f-4382-b78c-a843452990a8.jpg" 
                 alt="Элегантная спальня" 
                 className="w-full max-w-2xl h-80 object-cover rounded-3xl shadow-2xl"
               />
