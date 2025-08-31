@@ -174,9 +174,7 @@ export default function Index() {
                         <Icon name={module.icon as any} size={28} className="text-primary" />
                       </div>
                       <div>
-                        <div className="text-sm font-medium text-gold mb-1" style={{fontFamily: 'Source Sans Pro'}}>
-                          {module.duration}
-                        </div>
+
                         <h3 className="text-xl font-bold text-primary" style={{fontFamily: 'Playfair Display'}}>
                           {module.title}
                         </h3>
