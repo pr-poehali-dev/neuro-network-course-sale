@@ -114,10 +114,10 @@ export default function Index() {
                       </div>
                       <div>
                         <h3 className="text-xl font-semibold text-primary" style={{fontFamily: 'Playfair Display'}}>
-                          Модуль 3: Бонус. Личный бренд и создание вирусных видео для соц.сетей. Создание сайта с портфолио
+                          Модуль 3: Бонус
                         </h3>
-                        <p className="text-foreground/70" style={{fontFamily: 'Source Sans Pro'}}>
-                          
+                        <p className="text-foreground/70 text-sm" style={{fontFamily: 'Source Sans Pro'}}>
+                          Личный бренд и создание вирусных видео для соц.сетей. Создание сайта с портфолио
                         </p>
                       </div>
                     </div>
