@@ -42,7 +42,7 @@ export default function Index() {
             <div className="space-y-8">
               <div className="space-y-6">
                 <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-primary" style={{fontFamily: 'Playfair Display'}}>
-                  Мастерство дизайна интерьера с ИИ
+                  Искусственный интеллект для дизайнеров интерьера
                 </h1>
                 <p className="text-xl lg:text-2xl text-foreground/80 leading-relaxed" style={{fontFamily: 'Source Sans Pro'}}>
                   Эксклюзивный курс для профессиональных дизайнеров интерьера. 
