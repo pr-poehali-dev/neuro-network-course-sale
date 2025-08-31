@@ -62,13 +62,22 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				navy: {
-					DEFAULT: '#2C3E50',
-					dark: '#1A252F'
+				olive: {
+					DEFAULT: '#6B8E23',
+					light: '#8FAE3A'
 				},
-				gold: {
-					DEFAULT: '#E8D5B7',
-					light: '#F8FFFF'
+				oak: {
+					DEFAULT: '#A9745B',
+					light: '#C4906F'
+				},
+				cream: {
+					DEFAULT: '#F8F5F0'
+				},
+				graphite: {
+					DEFAULT: '#2C2C2C'
+				},
+				sand: {
+					DEFAULT: '#D9CBB6'
 				}
 			},
 			borderRadius: {
