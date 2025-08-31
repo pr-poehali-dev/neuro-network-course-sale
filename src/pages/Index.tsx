@@ -36,7 +36,7 @@ export default function Index() {
 
       {/* Hero Section */}
       <section className="relative py-24 px-4 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-olive/10 via-transparent to-oak/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-navy/10 via-transparent to-gold/20"></div>
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
@@ -62,19 +62,19 @@ export default function Index() {
 
               <div className="flex items-center space-x-8 pt-6">
                 <div className="flex items-center space-x-2">
-                  <Icon name="Users" size={20} className="text-oak" />
+                  <Icon name="Users" size={20} className="text-gold" />
                   <span className="text-sm font-medium text-foreground/70" style={{fontFamily: 'Source Sans Pro'}}>
                     500+ выпускников
                   </span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Icon name="Star" size={20} className="text-oak fill-current" />
+                  <Icon name="Star" size={20} className="text-gold fill-current" />
                   <span className="text-sm font-medium text-foreground/70" style={{fontFamily: 'Source Sans Pro'}}>
                     Рейтинг 4.9/5
                   </span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Icon name="Award" size={20} className="text-oak" />
+                  <Icon name="Award" size={20} className="text-gold" />
                   <span className="text-sm font-medium text-foreground/70" style={{fontFamily: 'Source Sans Pro'}}>
                     Сертификат
                   </span>
@@ -83,7 +83,7 @@ export default function Index() {
             </div>
             
             <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-r from-oak to-olive/30 rounded-3xl blur-3xl opacity-30"></div>
+              <div className="absolute -inset-4 bg-gradient-to-r from-gold to-navy/30 rounded-3xl blur-3xl opacity-30"></div>
               <Card className="relative border-0 shadow-2xl bg-card/50 backdrop-blur-sm">
                 <CardContent className="p-8">
                   <div className="space-y-6">
@@ -101,7 +101,7 @@ export default function Index() {
                       </div>
                     </div>
                     <div className="flex items-center space-x-4">
-                      <div className="w-16 h-16 bg-oak/30 rounded-full flex items-center justify-center">
+                      <div className="w-16 h-16 bg-gold/30 rounded-full flex items-center justify-center">
                         <Icon name="Palette" size={28} className="text-primary" />
                       </div>
                       <div>
@@ -179,7 +179,7 @@ export default function Index() {
                         <Icon name={module.icon as any} size={28} className="text-primary" />
                       </div>
                       <div>
-                        <div className="text-sm font-medium text-oak mb-1" style={{fontFamily: 'Source Sans Pro'}}>
+                        <div className="text-sm font-medium text-gold mb-1" style={{fontFamily: 'Source Sans Pro'}}>
                           {module.duration}
                         </div>
                         <h3 className="text-xl font-bold text-primary" style={{fontFamily: 'Playfair Display'}}>
@@ -191,7 +191,7 @@ export default function Index() {
                     <div className="space-y-3">
                       {module.topics.map((topic, topicIndex) => (
                         <div key={topicIndex} className="flex items-center space-x-3">
-                          <div className="w-2 h-2 bg-oak rounded-full"></div>
+                          <div className="w-2 h-2 bg-gold rounded-full"></div>
                           <span className="text-foreground/80" style={{fontFamily: 'Source Sans Pro'}}>
                             {topic}
                           </span>
@@ -273,7 +273,7 @@ export default function Index() {
                     <div className="space-y-4">
                       {plan.features.map((feature, featureIndex) => (
                         <div key={featureIndex} className="flex items-center space-x-3">
-                          <Icon name="Check" size={16} className="text-oak flex-shrink-0" />
+                          <Icon name="Check" size={16} className="text-gold flex-shrink-0" />
                           <span className="text-foreground/80" style={{fontFamily: 'Source Sans Pro'}}>
                             {feature}
                           </span>
