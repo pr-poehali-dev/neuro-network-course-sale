@@ -240,13 +240,7 @@ export default function Index() {
                   ? 'bg-gradient-to-br from-primary/5 via-card/80 to-secondary/10 scale-105' 
                   : 'bg-card/50'
               } backdrop-blur-sm`}>
-                {plan.recommended && (
-                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <div className="bg-primary text-primary-foreground px-6 py-2 rounded-full text-sm font-semibold">
-                      Популярный
-                    </div>
-                  </div>
-                )}
+
                 <CardContent className="p-8">
                   <div className="text-center space-y-6">
                     <div>
