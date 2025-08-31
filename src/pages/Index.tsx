@@ -10,8 +10,15 @@ export default function Index() {
       {/* Navigation */}
       <nav className="w-full py-6 px-4 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="text-2xl font-bold text-primary" style={{fontFamily: 'Playfair Display'}}>
-            AI Design Academy
+          <div className="flex items-center space-x-3">
+            <img 
+              src="https://cdn.poehali.dev/files/3f866894-3579-47bc-bb8a-e5bd77fa6972.jpg" 
+              alt="Логотип Академии Дизайна" 
+              className="w-10 h-10 object-contain"
+            />
+            <div className="text-xl font-bold text-primary" style={{fontFamily: 'Playfair Display'}}>
+              Академия Дизайна Марианны Турбиной
+            </div>
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="#program" className="text-foreground hover:text-primary transition-colors" style={{fontFamily: 'Source Sans Pro'}}>
