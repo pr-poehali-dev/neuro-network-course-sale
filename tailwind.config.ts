@@ -63,8 +63,8 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				olive: {
-					DEFAULT: '#6B8E23',
-					light: '#8FAE3A'
+					DEFAULT: '#2F5233',
+					light: '#4A6B4D'
 				},
 				oak: {
 					DEFAULT: '#A9745B',
