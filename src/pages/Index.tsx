@@ -241,13 +241,13 @@ export default function Index() {
                       <h3 className="text-2xl font-bold text-primary mb-2" style={{fontFamily: 'Playfair Display'}}>
                         {plan.name}
                       </h3>
-                      <div className="flex items-baseline justify-center space-x-2">
-                        <span className="text-4xl font-bold text-primary" style={{fontFamily: 'Playfair Display'}}>
+                      <div className="text-center">
+                        <div className="text-4xl font-bold text-primary" style={{fontFamily: 'Playfair Display'}}>
                           {plan.price}
-                        </span>
-                        <span className="text-lg text-foreground/70" style={{fontFamily: 'Source Sans Pro'}}>
+                        </div>
+                        <div className="text-lg text-foreground/70" style={{fontFamily: 'Source Sans Pro'}}>
                           {plan.period}
-                        </span>
+                        </div>
                       </div>
                     </div>
                     
